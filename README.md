@@ -1,23 +1,14 @@
-# Nextra Docs Template 
+# What is this?
+Low-Spec Lab is a community of tech enthusiasts dedicated to providing access to power tools for users with low-end hardware. Our goal is to help you make the most out of your computer even if it has limited capabilities.
 
-This is a template for creating documentation with [Nextra](https://nextra.site).
+## How to get it up and running for testing on your machine
 
-[**Live Demo →**](https://nextra-docs-template.vercel.app)
+```
+git clone https://github.com/aShanki/low-spec-lab/
+cd low-spec-lab
+npm i
+npm run build
+npm run dev
+```
 
-[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
-
-## Quick Start
-
-Click the button to clone this repository and deploy it on Vercel:
-
-[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra-docs-template&showOptionalTeamCreation=false)
-
-## Local Development
-
-First, run `pnpm i` to install the dependencies.
-
-Then, run `pnpm dev` to start the development server and visit localhost:3000.
-
-## License
-
-This project is licensed under the MIT License.
+Server should now be started on `http://localhost:3000`
